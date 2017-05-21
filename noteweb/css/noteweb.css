@@ -1,0 +1,243 @@
+html{
+	overflow: auto;
+}
+#bs_main{
+	position: relative;
+	width: 990px;
+	margin: 100px auto 0px auto;
+}
+#bs_main .main_left{
+	position: absolute;
+	top: 0px;
+	width: 696px;
+	border: 1px solid #ddd;
+}
+#bs_main .main_left .main_left_main{
+	width: 646px;
+	margin: 10px 25px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.main_left_main .remark{
+	padding: 15px 0px;
+	border-bottom: 1px solid #CDCDCD;
+	font-size: 12px;
+	line-height: 20px;
+	color: #336699;
+}
+.main_left_main .remark span{
+	color: #CC0000;
+}
+.main_left_main .left_main_title{
+	border-bottom: 1px solid #CDCDCD;
+}
+.main_left_main .left_main_title h1{
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+.main_left_main .left_main_title p{
+	text-align: center;
+	font-size: 12px;
+	color: #ddd;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.main_left_main .lm_main{
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+p.t_indent{
+	text-indent: 35px;
+	line-height: 25px;
+	margin-top: 10px;
+}
+p.strong{
+	color: #000;
+	font-weight: 600;
+}
+p.t_img{
+	width: 100%;
+	height: 300px;
+	margin: 10px 0px;
+}
+p.t_img span{
+	width: 100%;
+	height: 40px;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+p.t_img a{
+	color: #0000FF;
+}
+p.t_img a.a_i{
+	display: block;
+	width: 500px;
+	height: 250px;
+	margin: 0 auto;
+}
+p.t_img span a.a_sow{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin-right: 30px;
+	line-height: 30px;
+	color: #0000F0;
+	font-weight: 600;
+}
+p.t_img span a.a_sow:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+#bs_main .main_left .main_left_main h3{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: #eee;
+	color: #444444;
+}
+#bs_main .main_left .main_left_main dl{
+	width: 100%;
+	border-bottom: 1px dotted #CDCDCD;
+	padding: 10px 0px;
+}
+#bs_main .main_left .main_left_main dl dt{
+	line-height: 40px;
+	background: #00CCCC;
+	color: #fff;
+}
+#bs_main .main_left .main_left_main dl dd._main_main{
+	width: 100%;
+	height: 66px;
+	line-height: 25px;
+	margin-top: 5px;
+}
+dd._main_main p{
+	padding: 5px 0px;
+	height: 100px;
+	width: 520px;
+	line-height: 30px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+dd._main_main img{
+	
+}
+dd.oth{
+	text-align: right;
+	line-height: 30px;
+	margin-top: 15px;
+	color: blue;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+dd.oth a{
+	color: #c00;
+	font-size: 12px;
+	text-decoration: underline;
+}
+dd.oth a:hover{
+	text-decoration: none;
+}
+
+#bs_main .main_right{
+	width: 276px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+#bs_main .main_right .right_main{
+	width: 218px;
+	height: 168px;
+	border: 1px solid #ddd;
+}
+#bs_main .main_right .right_main2{
+	width: 218px;
+	height: 464px;
+	border: 1px solid #ddd;
+}
+#bs_main .main_right .right_main ul{
+	width: 100%;
+}
+#bs_main .main_right .right_main2 ul{
+	width: 100%;
+}
+#bs_main .main_right .right_main ul li{
+	float: left;
+	width: 50%;
+	line-height: 40px;
+	text-align: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+#bs_main .main_right .right_main2 ul li{
+	width: 100%;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+#bs_main .main_right .right_main ul li a{
+	color: #333;
+}
+#bs_main .main_right .right_main2 ul li a{
+	color: #333;
+}
+#bs_main .main_right .right_main ul li a:hover{
+	text-decoration: underline;
+}
+#bs_main .main_right .right_main2 ul li a:hover{
+	text-decoration: underline;
+}
+#bs_main .main_right .right_main h3{
+	height: 39px;
+	background: #eee;
+	font-size: 12px;
+	line-height: 39px;
+	text-indent: 15px;
+	border-bottom: 1px solid #ddd;
+}
+#bs_main .main_right .right_main2 h3{
+	height: 39px;
+	background: #eee;
+	font-size: 12px;
+	line-height: 39px;
+	text-indent: 15px;
+	border-bottom: 1px solid #ddd;
+}
+#bs_main .main_right .right_img{
+	width: 100%;
+	margin-top: 10px;
+}
+
+textarea{
+	border: 1px solid #ddd;
+	background: #EEEEEE;
+	resize: none;
+	width: 50%;
+	height: 330px;
+	padding: 10px;
+}
+
+#nav_header::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 0px;
+	clear: both;
+}
+
+
+
+

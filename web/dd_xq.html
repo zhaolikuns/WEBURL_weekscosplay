@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="erciyuan">
+	<meta name="Keywords" content="订单界面">
+	<meta name="Description" content="订单界面">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/products.css">
+	<link rel="stylesheet" type="text/css" href="../css/product_xq.css">
+	<title>订单界面</title>
+</head>
+<body>
+	<!--
+    	作者：二次元
+    	时间：2016-03-15
+    	描述：头部区域开始
+    -->
+	<!--头部区域开始-->
+	<div id="mainTop">
+		<!--头部广告区域开始-->
+		<div id="one">
+			<div id="top">
+				<a href="http://www.baidu.com" target="_blank" class="adv">
+					<img src="../images/adv.jpg" alt="背景图片"/>
+				</a>
+				<img src="../images/close.png" alt="关闭按钮" class="close"/>
+			</div>
+			<!--头部广告区域结束-->
+			
+			<!--标题开始-->
+			<div class="bottom">
+			<div class="Logo left">
+				<a href="#" target="_blank">
+					<img src="../images/logo.png" />
+				</a>
+			</div>
+			<div class="Search left">
+				<form>
+					<input type="text" class="sea" />
+					<input type="submit" value="" class="btn" />	
+				</form>
+			</div>
+			<!--用户信息开始-->
+			<div class="User right">
+				<!--用户注册、登录-->
+				<!--
+				<a href="#"><font class="iconfont">&#xe60b;</font>登录</a>
+				<a href="#"><font class="iconfont">&#xe60e;</font>注册</a>
+				-->
+				
+				<!--用户注册、登录进去-->
+				<span class="hello">你好，欢迎</span> <font class="user_name">XXX</font> !
+				<a href="#" class="userCenter">用户中心</a>|<a href="#" class="clearTC">退出</a>
+				<a href="#"><font class="iconfont">&#xe646;</font>购物车</a>
+			</div>
+			<!--用户信息结束-->
+		</div>
+		</div>
+			
+		<!--标题结束-->
+		
+		<!--header部分开始-->
+		<div id="header">
+			<div class="navs">
+				<ul>
+					<li class="nav_first">
+						<font class="iconfont">&#xe627;</font>全部商品分类</li>
+					<li class="nav">
+						<a href="javascript:void();;">首页</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">节日礼物</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">生日礼物</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">蛋糕</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">商场礼物</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">个性定制</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">鲜花</a>
+					</li>
+					<li class="nav_last"></li>
+				</ul>
+			</div>
+		</div>
+		<!--header部分结束-->	
+	</div>
+	<!--头部区域结束-->
+	
+	<!--面包屑导航 开始-->
+	<div id="web_logo">
+		当前位置:  
+		<a href="../index.html" target="_blank">首页</a> >
+		<a href="#">蛋糕类型</a> >
+		<a href="#">奶油蛋糕</a> >
+		<a href="#">KD876</a>
+	</div>
+	<!--面包屑导航 结束-->
+	
+		
+	<!--订单支付路径 开始-->
+	<div id="dd_address">
+		<ul>
+			<li>
+				<span class="xq_address_ti btn_active">1</span>
+				<span class="xq_address_text txt_active">提交订单</span>
+				<span class="xq_address_line line_active2"></span>
+			</li>
+			<li>
+				<span class="xq_address_ti btn_active">2</span>
+				<span class="xq_address_text l2 txt_active">确认订单并支付</span>
+				<span class="xq_address_line l3"></span>
+			</li>
+			<li class="xq_last">
+				<span class="xq_address_ti">3</span>
+				<span class="xq_address_text">已完成</span>
+			</li>
+		</ul>
+	</div>
+	<!--订单支付路径 结束-->
+	
+	<!--商品订单开始-->
+	<div id="goodsList" class="goodsList">
+		<h3><a href="#">列表修改</a>商品列表</h3>
+		<table>
+			<tr>
+				<th>商品名称</th>
+				<th>属性</th>
+				<th>市场价</th>
+				<th>本店价</th>
+				<th>购买数量</th>
+				<th>小计</th>
+			</tr>
+			<tr>
+				<td class="table_td_first">
+					<a href="#">生日蛋糕 北京店送 同城速递 水果蛋糕 奶油蛋糕 缤纷盛果</a> </td>
+				<td class="goods_size">尺寸:<font>10寸</font></td>
+				<td class="goods_scj">￥<font>224.00</font></td>
+				<td class="goods_bdj">￥<font>124.00</font></td>
+				<td>5</td>
+				<td class="goods_all_num">￥<font>124.00</font></td>
+			</tr>
+			<tr>
+				<td colspan="6" class="goods_last_list">
+					购物金额小计 ￥<font class="goods_last_list_all">1388.00</font>，比市场价 ￥<font class="goods_last_list_tops">1665.60</font> 节省了 ￥<font class="goods_last_list_low">277.60</font> (17%)
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	
+	<div id="userInfo" class="goodsList">
+		<h3><a href="#">列表修改</a>收货人信息</h3>
+		<table>
+			<tr>
+				<td class="users_title">收货人姓名</td>
+				<td>二次元</td>
+				<td class="users_title">邮箱地址</td>
+				<td>1252229352@qq.com</td>
+			</tr>
+			<tr>
+				<td class="users_title">详细地址</td>
+				<td>北京市海淀区上地东路1号盈创动力大厦A座501</td>
+				<td class="users_title">邮政编码</td>
+				<td>000000</td>
+			</tr>
+			<tr>
+				<td class="users_title">座机电话</td>
+				<td>010-58858588-1012</td>
+				<td class="users_title">手机电话</td>
+				<td>13161720809</td>
+			</tr>
+			<tr>
+				<td class="users_title">标志性建筑</td>
+				<td>联想大厦</td>
+				<td class="users_title">最佳送货时间</td>
+				<td>除了双休日，都可以</td>
+			</tr>
+		</table>
+		
+	</div>
+	
+	<div id="payType" class="goodsList">
+		<h3><a href="#">列表修改</a>商品列表</h3>
+		<table>
+			<tr>
+				<th></th>
+				<th>名称</th>
+				<th>订购描述</th>
+				<th>费用</th>
+				<th>免费额度</th>
+				<th>保价费用</th>
+			</tr>
+			<tr>
+				<td class="xx">
+					<input type="radio" name="paytype"  />
+				</td>
+				<td>城际快递</td>
+				<td>
+					配送费用都是固定的
+				</td>
+				<td>￥1388.00</td>
+				<td>2</td>
+				<td>不支持保价</td>
+			</tr>
+			<tr>
+				<td class="xx">
+					<input type="radio" name="paytype"  />
+				</td>
+				<td>邮局平邮</td>
+				<td>
+					根据邮局规定付费
+				</td>
+				<td>￥1388.00</td>
+				<td>2</td>
+				<td>不支持保价</td>
+			</tr>
+			<tr>
+				<td class="xx">
+					<input type="radio" name="paytype"  />
+				</td>
+				<td>运费到付</td>
+				<td>
+					所有商品到达后付款
+				</td>
+				<td>￥1388.00</td>
+				<td>2</td>
+				<td>不支持保价</td>
+			</tr>
+			<tr>
+				<td class="xx">
+					<input type="radio" name="paytype"  />
+				</td>
+				<td>申通快递</td>
+				<td>
+					江、浙、沪地区首重为15元/KG，其他地区18元/KG， 续重均为5-6元/KG， 云南地区为8元
+				</td>
+				<td>￥1388.00</td>
+				<td>2</td>
+				<td>不支持保价</td>
+			</tr>
+			<tr>
+				<td colspan="6" class="xx_check">
+					<input type="checkbox"  />配送方式是否要保价
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	
+	<div id="zfType" class="goodsList">
+		<h3><a href="#">列表修改</a>支付方式</h3>
+		<table>
+			<tr>
+				<th></th>
+				<th>名称</th>
+				<th>订购描述</th>
+				<th>手续费</th>
+			</tr>
+			<tr>
+				<td class="xx">
+					<input type="radio" name="zftype"  />
+				</td>
+				<td>余额宝支付</td>
+				<td>
+					只有会员才能使用，通过设置信用额度，可以透支
+				</td>
+				<td>￥0.00</td>
+			</tr>
+			<tr>
+				<td class="xx">
+					<input type="radio" name="zftype"  />
+				</td>
+				<td>银行汇款/转账</td>
+				<td>
+					银行名称 收款人信息：全称 ××× ；帐号或地址 ××× ；开户行 ×××。 
+					注意事项：办理电汇时，请在电汇单“汇款用途”一栏处注明您的订单号。
+				</td>
+				<td>￥0.00</td>
+			</tr>
+			<tr>
+				<td class="xx">
+					<input type="radio" name="zftype"  />
+				</td>
+				<td>货到付款</td>
+				<td>
+					开通城市：××× 货到付款区域：×××
+				</td>
+				<td>￥0.00</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div id="othersType" class="goodsList">
+		<h3><a href="#">列表修改</a>其他信息</h3>
+		<table>
+			<tr>
+				<td class="othersType_title">使用红包</td>
+				<td>
+					选择已有红包
+					<select style="border: 1px solid #000;">
+						<option>10元</option>
+						<option>100元</option>	
+					</select>
+					或者输入红包序列号 
+					<input type="text" id="othersType_num" style="border: 1px solid #000;"/>
+					<input type="button" value="验证红包" class="othersType_btn"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="othersType_title">订单附件</td>
+				<td class="othersType_textarea">
+					<textarea></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="othersType_title">缺货处理</td>
+				<td>
+					<input type="radio" name="otherstype" />&nbsp;等待所有商品备齐后再发&nbsp;&nbsp;
+					<input type="radio" name="otherstype" />&nbsp;取消订单&nbsp;&nbsp;
+					<input type="radio" name="otherstype" />&nbsp;与店主协商
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+	<div id="allNumType" class="goodsList">
+		<h3>费用总计</h3>
+		<table>
+			<tr>
+				<td class="allNumType_title">
+					该订单完成后，您将获得 <font>1388</font>积分 ，以及价值 <font>0.00</font>元的红包。
+				</td>
+			</tr>
+			<tr>
+				<td class="allNumType_title">
+					商品总价: ￥<font>1388.00</font> + 配送费用: ￥<font>15.00</font>
+				</td>
+			</tr>
+			<tr>
+				<td class="allNumType_title">
+					应付款金额：￥<font>1403.00</font>
+				</td>
+			</tr>
+			<tr>
+				<td class="allNumType_title">
+					<input type="button" class="allNumType_title_btn" value="提交订单"/>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!--商品订单结束-->
+	
+	
+	<!--底部区域开始-->
+	<div id="footer">
+		<!--底部的上区域开始-->
+		<div class="footer_top">
+			<span class="fore1">
+				<img src="../images/service_items_01.png"  width="220" height="54"/>
+			</span>
+			<span class="fore2">
+				<img src="../images/service_items_02.png"  width="220" height="54"/>
+			</span>
+			<span class="fore3">
+				<img src="../images/service_items_03.png"  width="220" height="54"/>
+			</span>
+			<span class="fore4">
+				<img src="../images/service_items_04.png"  width="220" height="54"/>
+			</span>
+		</div>
+		<!--底部的上区域结束-->
+		<!--底部的中部开始-->
+		<div class="footer_middle">
+			<dl class="fo1">
+				<dt>购物指南</dt>
+				<dd>
+					<a href="javascript:void(0);;">购物流程</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">会员介绍</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">生活指南/团购</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">常见问题</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">大家电</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">联系客服</a>
+				</dd>
+			</dl>
+			<dl class="fo2">
+				<dt>配送方式</dt>
+				<dd>
+					<a href="javascript:void(0);;">上门自提</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">21限时达</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">配送服务查询</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">配送费收取标准</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">海外派送</a>
+				</dd>
+			</dl>
+			<dl class="fo3">
+				<dt>支付方式</dt>
+				<dd>
+					<a href="javascript:void(0);;">货到付款</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">在线支付</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">分期付款</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">邮局汇款</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">公司转账</a>
+				</dd>
+			</dl>
+			<dl class="fo4">
+				<dt>售后服务</dt>
+				<dd>
+					<a href="javascript:void(0);;">售后政策</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">价格保护</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">退款说明</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">返修/退换货</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">取消订单</a>
+				</dd>
+			</dl>
+			<dl class="fo5">
+				<dt>特色服务</dt>
+				<dd>
+					<a href="javascript:void(0);;">夺宝岛</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">DIY装机</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">延保服务</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">网站E卡</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">网站通信</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">网站+</a>
+				</dd>
+			</dl>
+			<div class="fo6_last left">
+				<div class="fo6_last_title">网站自营覆盖区县</div>
+				<div class="fo6_last_con">
+					<p>京东已向全国2514个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+					<p class="ar">
+						<a href="http://help.jd.com/user/issue/103-983.html">查看详情></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--底部的中部结束-->
+		<!--底部的底部开始-->
+		<div class="footer_fot">
+			<div class="footer_fot_title">
+				<a href="javascript:void(0);;">关于我们</a>|
+				<a href="javascript:void(0);;">联系我们</a>|
+				<a href="javascript:void(0);;">商家入驻</a>|
+				<a href="javascript:void(0);;">营销中心</a>|
+				<a href="javascript:void(0);;">手机网站</a>|
+				<a href="javascript:void(0);;">友情链接</a>|
+				<a href="javascript:void(0);;">销售联盟</a>|
+				<a href="javascript:void(0);;">网站社区</a>|
+				<a href="javascript:void(0);;">网站公寓</a>|
+				<a href="javascript:void(0);;">English Site</a>|
+				<a href="javascript:void(0);;">Contact Us</a>
+			</div>
+			<div class="copy">
+				copyright @ 2016 &nbsp;&nbsp;&nbsp;www.weekscosplay.com
+			</div>
+		</div>
+		<!--底部的底部结束-->
+		
+		<!--QQ联系-->
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=355149444&site=qq&menu=yes" target="_blank" class="qqTalk">
+			<em class="qqTalk_show left"></em>
+			<i class="qqTalk_right left">咨询QQ</i>
+		</a>
+	</div>
+	<!--底部区域结束-->
+	<script type="text/javascript" src="../javascript/jquery.js"></script>
+	<script type="text/javascript" src="../javascript/header.js"></script>
+	<script type="text/javascript" src="../javascript/product_xq.js"></script>
+</body>
+</html>

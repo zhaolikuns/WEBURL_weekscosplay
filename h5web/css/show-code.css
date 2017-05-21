@@ -1,0 +1,37 @@
+
+a.a_sow{
+	display: block;
+	position: relative;
+}
+div.show_code{
+	display: none;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 700px;
+	height: 500px;
+	margin: auto;
+	background: #00FFFF;
+}
+div.show_code textarea{
+	width: 550px;
+	height: 250px;
+	background: #eee;
+	margin-top: 125px;
+	resize: none;
+}
+div.show_code span{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+}
+div.show_code span:hover{
+	background: #009DFF;
+}

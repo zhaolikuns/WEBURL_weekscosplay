@@ -1,0 +1,88 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content/Type" content="text/html" charset="utf-8">
+		<title>在线画图板</title>
+		<link rel="stylesheet" type="text/css" href="css/canvas_online.css">
+	</head>
+	<body>
+		<div class="drawArea">
+			<div class="tools">
+				<ul>
+					<li class="buttons" id="drawLine" onclick="brush(0)"><button>线段(N)</button></li>
+					<li class="buttons" id="drawRect" onclick="Rect(1)"><button>矩形(R)</button></li>
+					<li class="buttons" id="drawArc" onclick="Arc(3)"><button>圆形(O)</button></li>
+					<li class="buttons" id="drawDBX" onclick="drawDBX(4)"><button>多边形(G)</button></li>
+					<li class="colors"><img src="images/pencil.png"></li>
+					<li class="colors" onclick="paints()"><img src="images/paintcan.png"></li>
+					<li class="colors black" id="black" onclick="setColor(this,0)"></li>
+					<li class="colors black" id="paintBlack"></li>
+					<li class="colors red" id="red" onclick="setColor(this,1)"></li>
+					<li class="colors red" id="paintRed"></li>
+					<li class="colors pink" id="pink" onclick="setColor(this,2)"></li>
+					<li class="colors pink" id="paintPink"></li>
+					<li class="colors blue" id="blue" onclick="setColor(this,3)"></li>
+					<li class="colors blue" id="paintBlue"></li>
+					<li class="colors orange" id="orange" onclick="setColor(this,4)"></li>
+					<li class="colors orange" id="paintOrange"></li>
+					<li class="colors gray" id="gray" onclick="setColor(this,5)"></li>
+					<li class="colors gray" id="paintGray"></li>
+					<li class="colors cyan" id="cyan" onclick="setColor(this,6)"></li>
+					<li class="colors cyan" id="paintCyan"></li>
+					<li class="colors white" id="white" onclick="setColor(this,7)"></li>
+					<li class="colors white" id="paintWhite"></li>
+					<li class="colors" id="pencialColor"><input type="color"/></li>
+					<li class="colors" id="paintColor"><input type="color"/></li>
+					<li class="buttons" id="pen" onclick="penss(0)"><button>直线(P)</button></li>
+					<li class="buttons" id="pencil" onclick="pencils(1)"><button>填充圆(Y)</button></li>
+					<li class="buttons" id="crayon" onclick="crayons(2)"><button>蜡笔(W)</button></li>
+					<li class="buttons" id="eraser" onclick="erasers(3)"><button>橡皮擦(E)</button></li>
+				</ul>
+		</div>
+		<div class="canvasShow">
+			<canvas id="canvas" height="520" width="600" style="background:white">
+				您的浏览器不支持canvas元素，请更新您的浏览器！
+			</canvas>
+		</div>
+		<div class="other">
+			大小:
+				<select >
+					<option selected onclick="setlineWidth(0)">1</option>
+					<option onclick="setlineWidth(1)">2</option>
+					<option onclick="setlineWidth(2)">3</option>
+					<option onclick="setlineWidth(3)">4</option>
+					<option onclick="setlineWidth(4)">5</option>
+					<option onclick="setlineWidth(5)">6</option>
+					<option onclick="setlineWidth(6)">7</option>
+					<option onclick="setlineWidth(7)">8</option>
+					<option onclick="setlineWidth(8)">9</option>
+					<option onclick="setlineWidth(9)">10</option>
+					<option onclick="setlineWidth(10)">11</option>
+					<option onclick="setlineWidth(11)">12</option>
+					<option onclick="setlineWidth(12)">13</option>
+					<option onclick="setlineWidth(13)">14</option>
+					<option onclick="setlineWidth(14)">15</option>
+					<option onclick="setlineWidth(15)">16</option>
+					<option onclick="setlineWidth(16)">17</option>
+					<option onclick="setlineWidth(17)">18</option>
+					<option onclick="setlineWidth(18)">19</option>
+					<option onclick="setlineWidth(19)">20</option>
+				</select>
+				<ul>
+					<li>
+						<form id="myForm" action="http://localhost/down.php" method="post">
+							<input type="hidden" id="data" value="" name="data">
+							<button onclick="saveimg()" form="myform">保存(C+S)</button>
+						</form>
+					</li>
+					<li><button onclick="scale()">放大镜(C+Y)</button></li>
+					<li><button onclick="text()">文字(C+Z)</button></li>
+					<li onclick="clearAll()"><button>清除(C+Q)</button></li>
+				</ul>
+		</div>
+	</div>
+
+
+		<script type="text/javascript" language="javascript" src="js/canvas_online.js"></script>
+	</body>
+</html>

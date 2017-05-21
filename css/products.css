@@ -1,0 +1,243 @@
+/*products界面样式*/
+#webIntro{margin-top: 10px;}
+#webIntro .webIntro{
+	width: 100%;
+	height: 170px;
+	background: #F1F1F1;
+}
+#webIntro .webIntro .webIntroCon{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	background: #F1F1F2;
+}
+.webIntroCon_left{
+	width: 950px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.webIntroCon_left .hotIntro{
+	margin-left: 20px;
+	width: 30px;
+	height: 60px;
+	padding: 20px 8px 0px 5px;
+	font-size: 14px;
+	color: #FF6600;
+	text-align: center;
+	background: url(../images/listiconsother.png) no-repeat;
+}
+.webIntroCon_left .newIntroShow{
+	width: 1100px;
+	height: 100%;
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+.webIntroCon_left dl.newIntro{
+	height: 122px;
+	width: 286px;
+	float: left;
+	background: #fff;
+	margin: 24px 5px 24px 4px;
+}
+.webIntroCon_left dl.newIntro dt.newIntro_ti{
+	margin: 11px;
+	width: 100px;
+	height: 100px;
+}
+.webIntroCon_left dl.newIntro dd.newIntro_con{
+	width: 150px;
+	font-size: 12px;
+	height: 40px;
+	line-height: 20px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+.webIntroCon_left dl.newIntro dd.newIntro_con a{
+	color: #666666;
+}
+.webIntroCon_left dl.newIntro dd.buy{
+	width: 150px;
+	color: #c00;
+	line-height: 20px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.webIntroCon_left dl.newIntro dd.buy font.buy_num{
+	font-size: 20px;
+}
+.webIntroCon_left dl.newIntro dd.buy_pro{
+	color: #666666;
+	line-height: 14px;
+	margin-top: 10px;
+	margin-left:14px;
+	text-align: center;
+	border: 1px solid #DDD;
+	border-radius: 2px;
+	padding: 5px;
+	font-size: 14px;
+	background: #F3F3F3;
+}
+.webIntroCon_left dl.newIntro dd.buy_pro a{
+	color: #666666;
+}
+.webIntroCon_right{
+	width: 220px;
+	height: 100%;
+}
+.webIntroCon_right .hotIntro{
+	width: 30px;
+	height: 60px;
+	padding: 20px 8px 0px 5px;
+	font-size: 14px;
+	color: #FF6600;
+	text-align: center;
+	background: url(../images/listiconsother.png) no-repeat;
+}
+ul.saleCon{
+	width: 168px;
+	height: 100%;
+	padding-top: 5px;
+	box-sizing: border-box;
+}
+ul.saleCon li{
+	width: 165px;
+	height: 28px;
+	line-height: 28px;
+	margin-bottom: 5px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+	font-size: 12px;
+}
+ul.saleCon li:hover a{
+	color: #c00;
+}
+ul.saleCon li a{
+	color: #666;
+}
+
+/*面包屑导航样式*/
+#web_logo{
+	width: 1200px;
+	height: 54px;
+	line-height: 55px;
+	font-size: 14px;
+	border-bottom: 1px solid #DDDDDD;
+	margin: 0px auto;
+}
+#web_logo a{
+	color: #666;
+}
+#web_logo a:hover{
+	color: #f53e6d;
+}
+
+/*礼物综合搜索分类样式*/
+#searchType{
+	width: 1200px;
+	border: 1px solid #DDDDDD;
+	margin: 30px auto;
+}
+#searchType h3{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 15px;
+	font-size: 16px;
+	color: #666;
+	background: #F1F1F1;
+	font-weight: normal;
+}
+#searchType dl{
+	width: 1200px;
+	margin: 0px auto;
+	border-bottom: 1px solid #ddd;
+}
+#searchType dl dt{
+	width: 110px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	color: #666;
+	text-align: left;
+	text-indent: 15px;
+}
+#searchType dl dd{
+	width: 1050px;
+	line-height: 30px;
+}
+#searchType dl dd a{
+	color: #005AA0;
+	padding: 5px 10px;
+	margin: 0px 4px;
+	font-size: 12px;
+}
+#searchType dl dd a:hover{
+	background: #c00;
+	color: #fff;
+}
+
+/*商品展示部分 样式*/
+#product_show{
+	width: 1200px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 5px 0px;
+}
+#product_show h3{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 15px;
+	font-size: 16px;
+	color: #666;
+	background: #F1F1F1;
+	font-weight: normal;
+}
+#product_show ul {
+	width: 1300px;
+	padding-left: 3px;
+}
+#product_show ul li{
+	margin-right: 33px;
+	float: left;
+	width: 210px;
+	height: 310px;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+#product_show ul li h3{
+	width: 210px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #666;
+	background: #F1F1F1;
+	font-weight: normal;
+}
+#product_show ul li p{
+	width: 161px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px auto;
+	font-size: 12px;
+}
+#product_show ul li .p1 span{
+	display: inline-block;
+	width: 80px;
+	line-height: 25px;
+	background: #626262;
+	color: #FFFFFF;
+}
+#product_show ul li .p1 a{
+	color: #fff;
+	display: inline-block;
+	width: 80px;
+	background: #ed145b;
+}
+#product_show ul li p font{
+	color: #c00;
+}

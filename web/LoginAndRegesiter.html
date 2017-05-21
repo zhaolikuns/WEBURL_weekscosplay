@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="erciyuan">
+	<meta name="Keywords" content="登录 and 注册 界面">
+	<meta name="Description" content="登录 and 注册 界面">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/LoginAndRegester.css">
+	<title>登录 and 注册 界面</title>
+</head>
+<body>
+	<!--
+    	作者：二次元
+    	时间：2016-03-15
+    	描述：头部区域开始
+    -->
+	<!--头部区域开始-->
+	<div id="mainTop">
+		<!--头部广告区域开始-->
+		<div id="one">
+			<div id="top">
+				<a href="http://www.baidu.com" target="_blank" class="adv">
+					<img src="../images/adv.jpg" alt="背景图片"/>
+				</a>
+				<img src="../images/close.png" alt="关闭按钮" class="close"/>
+			</div>
+			<!--头部广告区域结束-->
+			
+			<!--标题开始-->
+			<div class="bottom">
+			<div class="Logo left">
+				<a href="#" target="_blank">
+					<img src="../images/logo.png" />
+				</a>
+			</div>
+			<div class="Search left">
+				<form>
+					<input type="text" class="sea" />
+					<input type="submit" value="" class="btn" />	
+				</form>
+			</div>
+			<!--用户信息开始-->
+			<div class="User right">
+				<!--用户注册、登录-->
+				<!--
+				<a href="#"><font class="iconfont">&#xe60b;</font>登录</a>
+				<a href="#"><font class="iconfont">&#xe60e;</font>注册</a>
+				-->
+				
+				<!--用户注册、登录进去-->
+				<span class="hello">你好，欢迎</span> <font class="user_name">XXX</font> !
+				<a href="#" class="userCenter">用户中心</a>|<a href="#" class="clearTC">退出</a>
+				<a href="#"><font class="iconfont">&#xe646;</font>购物车</a>
+			</div>
+			<!--用户信息结束-->
+		</div>
+		</div>
+			
+		<!--标题结束-->
+		
+		<!--header部分开始-->
+		<div id="header">
+			<div class="navs">
+				<ul>
+					<li class="nav_first">
+						<font class="iconfont">&#xe627;</font>全部商品分类</li>
+					<li class="nav">
+						<a href="javascript:void();;">首页</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">节日礼物</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">生日礼物</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">蛋糕</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">商场礼物</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">个性定制</a>
+					</li>
+					<li class="nav">
+						<a href="javascript:void();;">鲜花</a>
+					</li>
+					<li class="nav_last"></li>
+				</ul>
+			</div>
+		</div>
+		<!--header部分结束-->	
+	</div>
+	<!--头部区域结束-->
+	
+	
+	<!--注册登录界面开始-->
+	<div id="LoginAndRegester">
+		<p class="LoginAndRegester_title">
+			<span class="left active">用户登录</span>
+			<span class="left">用户注册</span>
+		</p>
+		<div class="LoginAndRegester_con">
+			<div class="LoginAndRegester_con_login" >
+				<form>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti">用户名：</span>
+						<input type="text" name="user" id="user" class="texts" />
+					</p>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti">密&nbsp;&nbsp;&nbsp;码：</span>
+						<input type="password" name="psw" id="psw" class="texts" />
+					</p>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti"></span>
+						<input type="checkbox" name="check" id="check" class="check" />
+						<label for="check">请保存我这次的登录信息</label>
+					</p>
+					<p class="LoginAndRegester_users">
+						<input type="submit" value="登陆" id="subm"/>
+						<input type="button" value="直接购买" id="pay"/>
+					</p>
+					<p class="LoginAndRegester_users">
+						<a href="javascript:void(0);;" class="zh1">密码问题找回密码</a>
+						<a href="javascript:void(0);;" class="zh2">注册邮件找回密码</a>
+					</p>
+				</form>
+			</div>
+			<div class="LoginAndRegester_con_regester" style="display: none;">
+				<form>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti">用户名：</span>
+						<input type="text" name="user" id="user" class="texts" />
+						<label id="user_user">※  用户名是由4-16位的数字、字母、下划线组成</label>
+					</p>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti">邮&nbsp;&nbsp;&nbsp;箱：</span>
+						<input type="email" name="email" id="email" class="texts" />
+						<label id="user_email">※  请输入正确的邮箱地址</label>
+					</p>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti">密&nbsp;&nbsp;&nbsp;码：</span>
+						<input type="password" name="psw" id="psw" class="texts" minlength="6" maxlength="16"/>
+						<label id="user_psw">※  密码是6-16由数字、字母、下划线</label>
+					</p>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti">确认密码：</span>
+						<input type="password" name="repsw" id="repsw" class="texts" />
+						<label id="user_repsw">※  两次密码要一样</label>
+					</p>
+					<p class="LoginAndRegester_users">
+						<span class="user_ti"></span>
+						<input type="button" name="rege" id="rege" class="texts" value="注册新用户"/>
+						
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--注册登录界面结束-->
+	
+	
+	
+	<!--底部区域开始-->
+	<div id="footer">
+		<!--底部的上区域开始-->
+		<div class="footer_top">
+			<span class="fore1">
+				<img src="../images/service_items_01.png"  width="220" height="54"/>
+			</span>
+			<span class="fore2">
+				<img src="../images/service_items_02.png"  width="220" height="54"/>
+			</span>
+			<span class="fore3">
+				<img src="../images/service_items_03.png"  width="220" height="54"/>
+			</span>
+			<span class="fore4">
+				<img src="../images/service_items_04.png"  width="220" height="54"/>
+			</span>
+		</div>
+		<!--底部的上区域结束-->
+		<!--底部的中部开始-->
+		<div class="footer_middle">
+			<dl class="fo1">
+				<dt>购物指南</dt>
+				<dd>
+					<a href="javascript:void(0);;">购物流程</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">会员介绍</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">生活指南/团购</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">常见问题</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">大家电</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">联系客服</a>
+				</dd>
+			</dl>
+			<dl class="fo2">
+				<dt>配送方式</dt>
+				<dd>
+					<a href="javascript:void(0);;">上门自提</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">21限时达</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">配送服务查询</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">配送费收取标准</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">海外派送</a>
+				</dd>
+			</dl>
+			<dl class="fo3">
+				<dt>支付方式</dt>
+				<dd>
+					<a href="javascript:void(0);;">货到付款</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">在线支付</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">分期付款</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">邮局汇款</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">公司转账</a>
+				</dd>
+			</dl>
+			<dl class="fo4">
+				<dt>售后服务</dt>
+				<dd>
+					<a href="javascript:void(0);;">售后政策</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">价格保护</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">退款说明</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">返修/退换货</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">取消订单</a>
+				</dd>
+			</dl>
+			<dl class="fo5">
+				<dt>特色服务</dt>
+				<dd>
+					<a href="javascript:void(0);;">夺宝岛</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">DIY装机</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">延保服务</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">网站E卡</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">网站通信</a>
+				</dd>
+				<dd>
+					<a href="javascript:void(0);;">网站+</a>
+				</dd>
+			</dl>
+			<div class="fo6_last left">
+				<div class="fo6_last_title">网站自营覆盖区县</div>
+				<div class="fo6_last_con">
+					<p>京东已向全国2514个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+					<p class="ar">
+						<a href="http://help.jd.com/user/issue/103-983.html">查看详情></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--底部的中部结束-->
+		<!--底部的底部开始-->
+		<div class="footer_fot">
+			<div class="footer_fot_title">
+				<a href="javascript:void(0);;">关于我们</a>|
+				<a href="javascript:void(0);;">联系我们</a>|
+				<a href="javascript:void(0);;">商家入驻</a>|
+				<a href="javascript:void(0);;">营销中心</a>|
+				<a href="javascript:void(0);;">手机网站</a>|
+				<a href="javascript:void(0);;">友情链接</a>|
+				<a href="javascript:void(0);;">销售联盟</a>|
+				<a href="javascript:void(0);;">网站社区</a>|
+				<a href="javascript:void(0);;">网站公寓</a>|
+				<a href="javascript:void(0);;">English Site</a>|
+				<a href="javascript:void(0);;">Contact Us</a>
+			</div>
+			<div class="copy">
+				copyright @ 2016 &nbsp;&nbsp;&nbsp;www.weekscosplay.com
+			</div>
+		</div>
+		<!--底部的底部结束-->
+		
+		<!--QQ联系-->
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=355149444&site=qq&menu=yes" target="_blank" class="qqTalk">
+			<em class="qqTalk_show left"></em>
+			<i class="qqTalk_right left">咨询QQ</i>
+		</a>
+	</div>
+	<!--底部区域结束-->
+	<script type="text/javascript" src="../javascript/jquery.js"></script>
+	<script type="text/javascript" src="../javascript/header.js"></script>
+	<script type="text/javascript" src="../javascript/LoginAndRegester.js"></script>
+</body>
+</html>

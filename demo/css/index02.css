@@ -1,0 +1,481 @@
+
+section.box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+section.box ul{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+section.box ul li{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+section.box ul li:nth-child(1){
+	background: url(../img/3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*section.box ul li:nth-child(2){
+	background: url(../img/2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+section.box ul li:nth-child(3){
+	background: url(../img/3.jpg) no-repeat;
+	background-size: 100% 100%;
+}*/
+
+div.nav-left a{
+	position: fixed;
+	left: 30px;
+	top: 30px;
+	display: block;
+	width: 108px;
+	height: 50px;
+	background: url(../img/fm1_logo.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: 800;
+}
+
+.fm-content{
+	width: 500px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -280px;
+	margin-top: -140px;
+	background: red;
+	z-index: 800;
+	background: rgba(0,0,0,.2);
+	border: 1px solid rgba(255,255,255,.3);
+	padding: 30px;
+}
+.fm-content div{
+	height: 40px;
+	line-height: 40px;
+}
+.Song-name{
+	width: 100%;
+	line-height: 30px;
+	color: #fff;
+} 
+.Song-name h2{
+	float: left;
+	width: 70px;
+}
+.Song-name span.cons{
+	display: block;
+	float: left;
+}
+.Song-author{
+	width: 100%;
+	line-height: 30px;
+	color: #fff;
+}
+.Song-author h2{
+	display: block;
+	float: left;
+	width: 70px;
+}
+.Song-author span.music-author{
+	display: block;
+	float: left;
+}
+.Song-player{
+	width: 100%;
+	height: 60px !important;
+	line-height: 60px !important;
+}
+.Song-player audio{
+	margin-top: 15px;
+	width: 100%;
+}
+.Song-other{
+	width: 100%;
+}
+.btns{
+	position: absolute;
+	right: 30px;
+	text-align: right;
+}
+.btns a{
+	margin-left: 10px;
+	padding-left: 30px;
+}
+.btns a:nth-child(1){
+	background: url(../img/btns.png) no-repeat;
+	background-position: 0 2px;
+}
+.btns a:nth-child(2){
+	background: url(../img/btns.png) no-repeat;
+	background-position: 0 -19px;
+}
+.btns a:nth-child(2):hover{
+	background: url(../img/btns.png) no-repeat;
+	background-position: 0 -80px;
+}
+.btns a:nth-child(3){
+	background: url(../img/btns.png) no-repeat;
+	background-position: 0 -39px;
+}
+.btns a:nth-child(4){
+	background: url(../img/btns.png) no-repeat;
+	background-position: 0 -61px;
+}
+
+
+/*右侧区域*/
+div.fm-right{
+	position: absolute;
+	right: 100px;
+	top: 0px;
+	width: 450px;
+	height: 100%;
+	z-index: 800;
+}
+div.fm-right .fm-right-navs{
+	background: #222629;
+	width: 100px;
+	height: 100%;
+	font-size: 14px;
+}
+div.fm-right .fm-right-navs a{
+	display: inline-block;
+	width: 100px;
+}
+div.fm-right .fm-right-navs a:hover{
+	color: #AEAFB1;
+}
+div.fm-right .fm-right-navs a:nth-child(1){
+	padding-top: 35px;
+	box-sizing: border-box;
+	height: 164px;
+}
+div.fm-right .fm-right-navs a:nth-child(1) span{
+	display: inline-block;
+	width: 56px;
+	margin-left: 22px;
+}
+/*div.fm-right .fm-right-navs a:nth-child(1):hover span.img {
+	opacity: .9;
+}
+div.fm-right .fm-right-navs a:nth-child(1):hover span.submit {
+	color: #AEAFB1;
+}*/
+div.fm-right .fm-right-navs a:nth-child(1) span.img{
+	height: 56px;
+	background: url(../img/user.jpg) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+}
+div.fm-right .fm-right-navs a:nth-child(1) span.img:hover{
+	opacity: .9;
+}
+div.fm-right .fm-right-navs a:nth-child(1) span.submit{
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 8px;
+}
+div.fm-right .fm-right-navs a:nth-child(1) span.submit:hover{
+	color: #AEAFB1;
+}
+div.fm-right .fm-right-navs a:nth-child(2),
+div.fm-right .fm-right-navs a:nth-child(3),
+div.fm-right .fm-right-navs a:nth-child(4),
+div.fm-right .fm-right-navs a:nth-child(5),
+div.fm-right .fm-right-navs a:nth-child(6),
+div.fm-right .fm-right-navs a:nth-child(7),
+div.fm-right .fm-right-navs a:nth-child(8),
+div.fm-right .fm-right-navs a:nth-child(9){
+	text-align: center;
+	padding: 12px 0px;
+}
+div.fm-right .fm-right-navs a:nth-child(8) img{
+	margin-left: 40px;
+}
+div.fm-right .fm-right-navs a:nth-child(9){
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	background: red;
+	padding-top: 60px;
+	background: #191c1f url(../img/btns.png) no-repeat;
+	background-position: -115px 0px;
+	opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fm-right .fm-right-conts{
+	position: relative;
+	width: 350px;
+	height: 1000px;
+	background: #c00;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.fm-right .fm-right-conts .tuijian{
+	width: 100%;
+	height: 500px;
+	background: yellow;
+}
+.tuijian-tabs{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: gray;
+	overflow: hidden;
+}
+.tuijian-tabs p{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.tuijian-tabs p span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin: 5px;
+	background: #fff;
+	cursor: pointer;
+}
+.tuijian-tabs p span.active{
+	background: #0000F0;
+}
+.tuijian-tabs ul{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 300px;
+}
+.tuijian-tabs ul li{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 100%;
+}
+
+/*底部*/
+.footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 32px;
+	background: rgba(0,0,0,.2);
+	color: #fff;
+}
+.footer a{
+	font-size: 14px;
+}
+.footer a img.acter{
+	margin-top: -19px;
+	margin-left: 10px;
+}
+p.footer-top{
+	position: absolute;
+	height: 20px;
+	line-height: 20px;
+	left: 48px;
+	top: -20px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.footer a.new-commnet{
+	position: absolute;
+	left: 48px;
+	top: 5px;
+	padding-left: 20px;
+}
+
+/*登录界面*/
+.login{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	background: #444;
+	z-index: 999;
+	width: 582px;
+	height: 367px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.login span.close{
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+	color: #fff;
+}
+/*.login span.close:hover{
+	background: #eee;
+}*/
+.login-prop{
+	height: 327px;
+	color: #fff;
+}
+.login-prop h2{
+	font-size: 24px;
+}
+.login-prop p.words{
+	padding: 10px 0px 20px 0px;
+}
+.login-props{
+	width: 100%;
+	height: 235px;
+}
+.lprop{
+	width: 330px;
+	height: 100%;
+}
+.rprop{
+	width: 159px;
+	height: 100%;
+	border-left: 1px dotted #eee;
+}
+.rprop h4{
+	text-align: center;
+}
+.rprop a{
+	display: block;
+	padding-left: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+	line-height: 24px;
+}
+.rprop a.qqLogin{
+	background: url(../img/login.jpg) no-repeat;
+	background-position: 0px 0px;
+	background-size: 24px
+}
+.rprop a.webLogin{
+	background: url(../img/login.jpg) no-repeat;
+	background-position: 0px -48px;
+	background-size: 24px
+}
+
+
+
+#lps p:nth-child(1){
+	color: #eee;
+	height: 56px;
+	width: 300px;
+	padding: 3px;
+	box-sizing: border-box;
+	border: 1px solid #A7BED4;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#lps p:nth-child(1) label{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 48px;
+	line-height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#lps p:nth-child(1) input{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 244px;
+	font-size: 16px;
+	line-height: 48px;
+}
+#lps p:nth-child(2){
+	color: #eee;
+	height: 56px;
+	width: 300px;
+	padding: 3px;
+	box-sizing: border-box;
+	border: 1px solid #A7BED4;
+	border-top: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#lps p:nth-child(2) label{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 48px;
+	line-height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#lps p:nth-child(2) input{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 244px;
+	font-size: 16px;
+	line-height: 48px;
+}
+#btns{
+	width: 300px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #FFF;
+	font-weight: bold;
+	margin: 20px 0px;
+	background: #4095D6;
+}
+.lprop > p{
+	height: 20px;
+	line-height: 20px;
+	width: 300px;
+}
+.lprop p a{
+	display: inline-block;
+}
+.lprop p a:nth-child(1){
+	width: 150px;
+	text-align: left;
+}
+.lprop p a:nth-child(2){
+	width: 150px;
+	text-align: right;
+}
+
+/*遮罩层*/
+.shade{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 900;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+}

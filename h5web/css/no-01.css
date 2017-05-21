@@ -1,0 +1,223 @@
+
+/*头部导航 start*/
+#header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	z-index: 999;
+}
+section.header-con{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 1200px;
+	height: 100%;
+	padding-top: 30px;
+	box-sizing: border-box;
+	margin:auto;
+}
+section.shade-con{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+}
+section.sec-left{
+	width: 150px;
+	height: 40px;
+	color: rgba(255,255,255,.3);
+	background: -webkit-linear-gradient(-30deg , rgba(0,72,173,0) 10px , rgba(0,72,173,1) 15px ,rgba(0,72,173,1) 20px ,rgba(0,72,173,0) 25px) no-repeat;
+	-webkit-text-fill-color: -webkit-text;
+	background-position: -30px 0;
+}
+
+section.sec-left p{
+	height: 50%;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+}
+section.sec-left p:nth-child(1){
+	font-size: 18px;
+	letter-spacing: 4px;
+}
+section.sec-right{
+	height: 40px;
+}
+section.sec-right nav ul li{
+	float: left;
+	line-height: 40px;
+}
+section.sec-right nav ul li a{
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 18px;
+}
+section.sec-right nav ul li a:hover{
+	background: #FF6666;
+}
+/*头部导航 end*/
+
+/*内容区域 开始*/
+div#content{
+	position: relative;
+	width: 100%;
+	width: 980px;
+	height: 1000px;
+	margin: 100px auto 0px;
+}
+section#areas{
+	width: 696px;
+}
+section#mainLeft{
+	width: 696px;
+}	
+aside#mainRight{
+	width: 276px;
+}	
+	
+article.comArea{
+	position: relative;
+	width: 100%;
+	height: 241px;
+	margin-top: 12px;
+}
+div.fixZoom{
+	float: left;
+	width: 50px;
+	height: 72px;
+	background: url(../noteimg/date.png) no-repeat;
+}
+div.fixZoom span{
+	display: block;
+	width: 100%;
+	text-indent: 3px;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+}    
+ div.fixZoom span:nth-child(2){
+  	font-family: Georgia, Arial, Tahoma, Geneva;
+    font-weight: bold;
+    font-size: 25px;
+ } 
+article.fixArea{
+	position: relative;
+	float: right;
+	width: 641px;
+	height: 100%;
+	padding: 4px 0px 8px 0px;
+	box-sizing: border-box;
+	background: url(../noteimg/article_t.png) no-repeat;
+}
+article.fixArea h2{
+	line-height: 40px;
+	font-size: 16px;
+	margin-bottom: 8px;
+	text-indent: 10px;
+	background: #eee;
+}
+article.fixArea p.left{
+	width: 530px;
+	height: 100px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+article.fixArea a.right{
+	margin-right: 100px;
+	margin-top: 10px;
+	color: #BABABA;
+}
+p.fixArea_bottom{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 43px;
+	background: #000;
+	line-height: 43px;
+	text-indent: 10px;
+}
+p.fixArea_bottom span{
+	font-size: 12px;
+}
+p.fixArea_bottom span:nth-child(1) a{
+	height: 14px;
+	padding: 0 14px 0 14px;
+	background: url(../noteimg/author.png) no-repeat 0 0;
+}
+p.fixArea_bottom span:nth-child(1) a:hover{
+	background: url(../noteimg/author.png) no-repeat 0 -16px;
+}
+p.fixArea_bottom span:nth-child(2) a{
+	height: 14px;
+	padding: 0 14px 0 14px;
+	background: url(../noteimg/category.png) no-repeat 0 0;
+}
+p.fixArea_bottom span:nth-child(2) a:hover{
+	background: url(../noteimg/category.png) no-repeat 0 -16px;
+}
+p.fixArea_bottom span:nth-child(3) a{
+	height: 14px;
+	padding: 0 14px 0 14px;
+	background: url(../noteimg/comments.png) no-repeat 0 0;
+}
+p.fixArea_bottom span:nth-child(3) a:hover{
+	background: url(../noteimg/comments.png) no-repeat 0 -16px;
+}
+p.fixArea_bottom span:nth-child(4) a{
+	height: 14px;
+	padding: 0 14px 0 14px;
+	background: url(../noteimg/reads.png) no-repeat 0 0;
+}
+p.fixArea_bottom span:nth-child(4) a:hover{
+	background: url(../noteimg/reads.png) no-repeat 0 -16px;
+}
+p.fixArea_bottom span:nth-child(5) a{
+	height: 14px;
+	padding: 0 14px 0 14px;
+	background: url(../noteimg/tags.png) no-repeat 0 0;
+}
+p.fixArea_bottom span:nth-child(5) a:hover{
+	background: url(../noteimg/tags.png) no-repeat 0 -16px;
+}
+/*内容区域 结束*/
+
+#content::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

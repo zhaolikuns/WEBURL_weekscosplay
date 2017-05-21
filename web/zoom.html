@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="erciyuan">
+	<meta name="Keywords" content="放大镜">
+	<meta name="Description" content="放大镜">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/zoom.css">
+	<title>放大镜</title>
+</head>
+<body>
+	
+	
+	<!--多放大镜效果-->
+	<div id="zoom_box2">
+		<!--图片显示区域 start-->
+		<div class="zoom_sImg2">
+			<img src="../pic/bimg1.jpg" width="400" height="400" />
+			<!--滑动块 start-->
+			<span class="zoom_move2"></span>
+			<!--滑动块 end-->
+			<!--遮罩层 start-->
+			<span class="zoom_shade2"></span>
+			<!--遮罩层 end-->
+		</div>
+		<!--图片显示区域 end-->
+		<!--下面切换按钮-->
+		<div class="zoom_btn">
+			<div class="zoom_btn_hide">
+				<img src="../pic/simg1.jpg" class="zoom_active" dataSrc = "../pic/bimg1.jpg" />
+				<img src="../pic/simg2.jpg"  dataSrc = "../pic/bimg2.jpg"/>
+				<img src="../pic/simg3.jpg"  dataSrc = "../pic/bimg3.jpg"/>
+				<img src="../pic/simg4.jpg"   dataSrc = "../pic/bimg4.jpg"/>
+			</div>
+			
+		</div>
+		
+		
+		
+		<!--大图片区域 start -->
+		<div class="zoom_bImg2">
+			<img src="../pic/bimg1.jpg"  />
+		</div>
+		<!--大图片区域 end -->
+	</div>
+	
+	<script src="../javascript/jquery.js"></script>
+	<script src="../javascript/zoom.js"></script>
+</body>
+</html>

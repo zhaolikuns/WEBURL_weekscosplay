@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.drawArea{
+	width: 800px;
+	height:700px;
+	background: #D9D9D9; 
+}
+.tools{
+	height: 680px;
+	width: 80px;
+	padding: 10px;
+	float: left;
+}
+.tools ul li{
+	float: left;
+	margin-bottom: 7px;
+}
+.buttons{
+	height: 24px;
+	width: 69px;
+	border-radius: 4px;
+	line-height: 24px;
+}
+.buttons button{
+	height: 24px;
+	width: 67px;
+	font-size: 12px;
+	border: 0;
+	border-radius: 4px;
+}
+.buttons button:hover{
+	border: 1px solid #009DFF;
+	cursor: pointer;
+}
+.colors{
+	height: 25px;
+	width: 25px;
+	float: left;
+	border: 1px solid #E2A2E2;
+	margin-right: 12px;
+	line-height: 25px;
+	text-align: center;
+}
+.colors input{
+	width: 25px;
+	height: 25px;
+} 
+.black{
+	background: #000;
+}
+.red{
+	background: red;
+}
+.pink{
+	background: #00FF00;
+}
+.blue{
+	background: blue;
+}
+.orange{
+	background: #FFFF00;
+}
+.gray{
+	background: #00FFFF;
+}
+.cyan{
+	background: #FF00FF;
+}
+.white{
+	background: white;
+} 
+
+
+.canvasShow{
+	float: left;
+	margin-top: 15px;
+	border: 1px solid #7F7F7F;
+	cursor: crosshair;
+}
+
+.other{
+	float: left;
+	width: 602px;
+	height: 25px;
+	padding-top: 25px;
+}
+.other select{
+	width: 100px;
+	height: 20px;
+	font-weight: bold;
+}
+.other select option{
+	height: 20px;
+	background: white;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	line-height: 20px;
+}
+.other ul{
+	margin-top: -22px;
+}
+.other ul li{
+	float: right;
+	margin-left: 10px;
+}
+.other ul li button{
+	width: 90px;
+	height: 25px;
+	border-radius: 4px;
+	margin-left: 5px;
+}
